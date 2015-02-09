@@ -8,7 +8,7 @@ My default vagrant files.  To be used as base for rails development.
 - git
 - rvm
 - ruby 2.2.0
-- postgres
+- postgres 9.3
 - rails 4.2
 - vim config files
 - oh-my-zsh files
