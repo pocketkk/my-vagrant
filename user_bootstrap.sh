@@ -53,6 +53,5 @@ git clone https://github.com/pocketkk/my-vim.git /home/vagrant/.vim
 gem install foreman --no-ri --no-rdoc
 gem install rails --no-ri --no-rdoc
 
-app/bundle upgrade nokogiri
 
 
