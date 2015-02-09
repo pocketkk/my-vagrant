@@ -25,6 +25,7 @@ echo "Configuring postgres ..."
 sudo -u postgres psql -e -c "CREATE USER vagrant WITH PASSWORD 'vagrant';"
 sudo -u postgres psql -e -c "CREATE DATABASE vagrant ENCODING 'UTF-8';"
 sudo -u postgres psql -e -c "GRANT ALL PRIVILEGES ON DATABASE vagrant TO vagrant;"
+sudo -u postgres psql -e -c "ALTER USER vagrant CREATEDB"
 
 ##
 #    Install RVM
