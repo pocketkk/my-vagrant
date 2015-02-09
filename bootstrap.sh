@@ -14,7 +14,7 @@ dpkg-reconfigure locales
 #    Install GIT MAKE POSTGRES
 ##
 
-apt-get install -y git make postgresql libpq-dev
+apt-get install -y git make postgresql libpq-dev libxml2
 
 ##
 #    Configure postgresql
